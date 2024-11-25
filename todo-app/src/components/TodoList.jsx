@@ -8,7 +8,7 @@ export function TodoList(props) {
   return (
     <>
       {todos.map((todo, todoIndex) => {
-        return <TodoCard key={todoIndex} todosIndex={todoIndex} {...props} />;
+        return <TodoCard key={todoIndex} todoIndex={todoIndex} {...props} />;
       })}
     </>
   );
